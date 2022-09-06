@@ -15,5 +15,4 @@ With this project, I want to create a template that mirrors the talk, allowing m
 
 [![Deploy to GitHub Pages](https://github.com/fearlessly-dev/wtd4me/actions/workflows/deploy.yml/badge.svg)](https://github.com/fearlessly-dev/wtd4me/actions/workflows/deploy.yml)
 
-[![Test deployment](https://github.com/fearlessly-dev/wtd4me/actions/workflows/test-deploy.yml/badge.svg)](https://github.com/fearlessly-dev/wtd4me/actions/workflows/test-deploy.yml)
-
+[![pages-build-deployment](https://github.com/fearlessly-dev/wtd4me/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/fearlessly-dev/wtd4me/actions/workflows/pages/pages-build-deployment)
