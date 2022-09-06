@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Dino-might! Blog</title>
+        <link>https://wtd4me.nitya.dev/blog</link>
+        <description>Dino-might! Blog</description>
+        <lastBuildDate>Mon, 17 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hello World!]]></title>
+            <link>https://wtd4me.nitya.dev/blog/hello-world</link>
+            <guid>hello-world</guid>
+            <pubDate>Mon, 17 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to Dino-Might!! A sandbox that I am using to get familiar with the features and API provided by Docusaurus - a static site generator.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to Dino-Might!! A sandbox that I am using to get familiar with the features and API provided by <a href="https://docusaurus.io/">Docusaurus</a> - a static site generator.</p><p>The goal is to get to a template that I can repurpose for setting up project-specific blogs, documentation sites or portfolio pages. </p><hr/><p>Some things I want to explore:</p><ul><li><code>Scaffolding</code> = what does the boilerplate experience look like?</li><li><code>Deployment</code> = how easily can I deploy this to various hosting providers?</li><li><code>Tooling</code> = what dev tools exist for authoring, testing, CI/CD and auditing?</li><li><code>PWA</code> = how easily can I refactor this to be a progressive web app?</li><li><code>Testing</code> = how I do implement cross-browser testing and automation?</li><li><code>Authoring</code> = how do I use MDX and React support for richer UI/UX?</li><li><code>Modern</code> = how do I design for accessibility, localization, performance?</li><li><code>Integration</code> = does this play well with others (e.g., frameworks &amp; services)</li></ul><p>I&#x27;ll be overhauling the <a href="/docs/intro">Tutorials</a> section to document my learnings as I go.</p><hr/><p>Let&#x27;s Go Docu-venturing!</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

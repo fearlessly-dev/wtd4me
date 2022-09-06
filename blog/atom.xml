@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wtd4me.nitya.dev/blog</id>
+    <title>Dino-might! Blog</title>
+    <updated>2022-01-17T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wtd4me.nitya.dev/blog"/>
+    <subtitle>Dino-might! Blog</subtitle>
+    <icon>https://wtd4me.nitya.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hello World!]]></title>
+        <id>hello-world</id>
+        <link href="https://wtd4me.nitya.dev/blog/hello-world"/>
+        <updated>2022-01-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Dino-Might!! A sandbox that I am using to get familiar with the features and API provided by Docusaurus - a static site generator.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to Dino-Might!! A sandbox that I am using to get familiar with the features and API provided by <a href="https://docusaurus.io/">Docusaurus</a> - a static site generator.</p><p>The goal is to get to a template that I can repurpose for setting up project-specific blogs, documentation sites or portfolio pages. </p><hr/><p>Some things I want to explore:</p><ul><li><code>Scaffolding</code> = what does the boilerplate experience look like?</li><li><code>Deployment</code> = how easily can I deploy this to various hosting providers?</li><li><code>Tooling</code> = what dev tools exist for authoring, testing, CI/CD and auditing?</li><li><code>PWA</code> = how easily can I refactor this to be a progressive web app?</li><li><code>Testing</code> = how I do implement cross-browser testing and automation?</li><li><code>Authoring</code> = how do I use MDX and React support for richer UI/UX?</li><li><code>Modern</code> = how do I design for accessibility, localization, performance?</li><li><code>Integration</code> = does this play well with others (e.g., frameworks &amp; services)</li></ul><p>I&#x27;ll be overhauling the <a href="/docs/intro">Tutorials</a> section to document my learnings as I go.</p><hr/><p>Let&#x27;s Go Docu-venturing!</p>]]></content>
+        <author>
+            <name>Nitya Narasimhan</name>
+            <uri>https://github.com/nitya</uri>
+        </author>
+    </entry>
+</feed>
