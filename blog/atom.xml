@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wtd4me.nitya.dev/blog</id>
-    <title>Dino-might! Blog</title>
+    <title>Nitya Narasimhan, PhD Blog</title>
     <updated>2022-01-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wtd4me.nitya.dev/blog"/>
-    <subtitle>Dino-might! Blog</subtitle>
+    <subtitle>Nitya Narasimhan, PhD Blog</subtitle>
     <icon>https://wtd4me.nitya.dev/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
