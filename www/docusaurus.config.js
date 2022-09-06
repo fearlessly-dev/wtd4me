@@ -8,15 +8,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Dino-might!',
   tagline: 'Blowing up the Internet!',
-  url: 'https://docu-demo.nitya.dev',
+  url: 'https://wtd4me.nitya.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  deploymentBranch: 'gh-pages',
 
   // -- Adding for Deployment Configuration
-  organizationName: 'nitya', //  user
-  projectName: 'docusaurus-demo', // repo
+  organizationName: 'fearlessly-dev', //  user
+  projectName: 'wtd4me', // repo
   deploymentBranch: `gh-pages`, // default = gh-pages
   presets: [
     [
