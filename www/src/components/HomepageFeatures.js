@@ -4,29 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Fundamentals',
-    Svg: require('../../static/img/undraw_pair_programming.svg').default,
+    title: 'I am ..',
+    Svg: require('../../static/svg/landing-resume-light.svg').default,
     description: (
       <>
-        Let's talk about what X is and why it matters. What are the core components of X and how can you get started using it?
+        Docs = Past skills, experience grouped into categories. Think Resume.
       </>
     ),
   },
   {
-    title: 'Deep Dives',
-    Svg: require('../../static/img/undraw_web_search.svg').default,
+    title: 'I\'m Working On ..',
+    Svg: require('../../static/svg/landing-timeline.svg').default,
     description: (
       <>
-        Time to look under the hood. Let's dive into the details of how X works, how to architect solutions using it.
+        Blog = Present activities as doing, leading, learning. Think Timeline.
       </>
     ),
   },
   {
-    title: 'Advanced Concepts',
-    Svg: require('../../static/img/undraw_web_devices.svg').default,
+    title: 'I\'m Proud Of ..',
+    Svg: require('../../static/svg/landing-milestones.svg').default,
     description: (
       <>
-        Thinking production ready? Want to explore advanced features for modern apps? Let's talk tips, tricks and tools!
+        Pages = Dedicated topics with activity (volume) or achievement (milestone)
       </>
     ),
   },

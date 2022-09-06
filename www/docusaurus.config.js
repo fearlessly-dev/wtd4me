@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Dino-might!',
-  tagline: 'Blowing up the Internet!',
+  title: 'Nitya Narasimhan, PhD',
+  tagline: 'Builder - Innovator - Educator - Illustrator',
   url: 'https://wtd4me.nitya.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -78,7 +78,7 @@ const config = {
     ({
       hideableSidebar: true,
       navbar: {
-        title: 'Dino-might!',
+        title: '<Nitya/>',
         logo: {
           alt: 'Dino-might Logo',
           src: 'img/logo.svg',
@@ -88,11 +88,16 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'I am',
           },
           {
             to: '/blog',
-             label: 'Blog', 
+             label: 'I\'m Working On', 
+             position: 'left'
+          },
+          {
+            to: '/about',
+             label: 'I\'m Proud Of', 
              position: 'left'
           },
           {

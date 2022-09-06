@@ -5,25 +5,39 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #b00303;
-  --ifm-color-primary-dark: #9e0303;
-  --ifm-color-primary-darker: #960303;
-  --ifm-color-primary-darkest: #7b0202;
-  --ifm-color-primary-light: #c20303;
-  --ifm-color-primary-lighter: #ca0303;
-  --ifm-color-primary-lightest: #e50404;
+
+/* Light Theme */
+:root {    
+  --ifm-color-primary: #ae1e49;
+  --ifm-color-primary-dark: #9d1b42;
+  --ifm-color-primary-darker: #94193e;
+  --ifm-color-primary-darkest: #7a1533;
+  --ifm-color-primary-light: #bf2150;
+  --ifm-color-primary-lighter: #c82354;
+  --ifm-color-primary-lightest: #db2e62;
   --ifm-code-font-size: 95%;
 }
 
-html[data-theme='dark'] {
-  --ifm-color-primary: #e7ea2e;
-  --ifm-color-primary-dark: #e2e517;
-  --ifm-color-primary-darker: #d5d816;
-  --ifm-color-primary-darkest: #b0b212;
-  --ifm-color-primary-light: #eaed47;
-  --ifm-color-primary-lighter: #ebee54;
-  --ifm-color-primary-lightest: #f0f27a;
+/* Dark theme */
+html[data-theme='dark'] {  
+  --ifm-color-primary: #32e3fb;
+  --ifm-color-primary-dark: #14dffa;
+  --ifm-color-primary-darker: #06ddfa;
+  --ifm-color-primary-darkest: #04b6cf;
+  --ifm-color-primary-light: #50e7fc;
+  --ifm-color-primary-lighter: #5ee9fc;
+  --ifm-color-primary-lightest: #8beffd;
+}
+
+/* Support themed images 
+ * See: https://docusaurus.io/docs/2.0.1/markdown-features/assets#github-style-themed-images 
+ * Usage: Put the below side by side in Markdown
+ * ![Docusaurus themed image](/img/light-version.svg#gh-light-mode-only)
+ * ![Docusaurus themed image](/img/dark-version.svg#gh-dark-mode-only)
+ */
+[data-theme='light'] img[src$='#gh-dark-mode-only'],
+[data-theme='dark'] img[src$='#gh-light-mode-only'] {
+  display: none;
 }
 
 .docusaurus-highlight-code-line {
